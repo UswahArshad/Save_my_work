@@ -1,0 +1,4 @@
+,#,read,clipboard,in,python
+0,df=,pd.read_clipboard(),,,
+1,df,,,,
+2,df.to_csv('excel,ka,data.csv'),,
