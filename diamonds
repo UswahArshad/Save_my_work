@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Diamonds | Kaggle</title>
+  <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+  <meta name="description" content="Analyze diamonds by their cut, color, clarity, price, and other attributes" />
+  <meta name="turbolinks-cache-control" content="no-cache" />
+    <meta name="keywords" content="clothing and accessories,finance" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+  <meta name="theme-color" content="#008ABC" />
+  <script nonce="w1IzY1PdlwsriDlE5zTcew==" type="text/javascript">
+    window["pageRequestStartTime"] = 1650358894128;
+    window["pageRequestEndTime"] = 1650358894226;
+    window["initialPageLoadStartTime"] = new Date().getTime();
+  </script>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" /><link rel="preconnect" href="https://stats.g.doubleclick.net" /><link rel="preconnect" href="https://storage.googleapis.com" /><link rel="preconnect" href="https://apis.google.com" />
+  <link href="/static/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="manifest" href="/static/json/manifest.json" crossorigin="use-credentials">
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="preload" as="style" />
+  <link href="https://fonts.googleapis.com/icon?family=Google+Material+Icons"
+    rel="stylesheet" media="print" id="async-google-font-1" />
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" media="print" id="async-google-font-2" />
+  <script nonce="w1IzY1PdlwsriDlE5zTcew==" type="text/javascript">
+    const styleSheetIds = ["async-google-font-1", "async-google-font-2"];
+    styleSheetIds.forEach(function (id) {
+      document.getElementById(id).addEventListener("load", function() {
+        this.media = "all";
+      });
+    });
+  </script>
+
+    <link rel="canonical" href="/shivam2503/diamonds" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/vendor.css?v=1f6d99669e949b7dfa2b" />
+    <link rel="stylesheet" type="text/css" href="/static/assets/app.css?v=f602e7231c8f2e08f52b" />
+  
+    
+ 
+      <script nonce="w1IzY1PdlwsriDlE5zTcew==">
+        try{(function(a,s,y,n,c,h,i,d,e){d=s.createElement("style");
+        d.appendChild(s.createTextNode(""));s.head.appendChild(d);d=d.sheet;
+        y=y.map(x => d.insertRule(x + "{ opacity: 0 !important }"));
+        h.start=1*new Date;h.end=i=function(){y.forEach(x => x<d.cssRules.length ? d.deleteRule(x) : {})};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document,['.site-header-react__nav'],'dataLayer',2000,{'GTM-52LNT9S':true});}catch(ex){}
+    </script>
+    <script nonce="w1IzY1PdlwsriDlE5zTcew==">
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-12629138-1', {
+            'optimize_id': 'GTM-52LNT9S',
+            'displayFeaturesTask': null,
+            'send_page_view': false,
+            'content_group1': 'Datasets'
+        });
+    </script>
+    <script nonce="w1IzY1PdlwsriDlE5zTcew==" async src="https://www.googletagmanager.com/gtag/js?id=UA-12629138-1"></script>
+
+  
+    
+    <meta property="og:url" content="/shivam2503/diamonds" />
+    <meta property="og:title" content="Diamonds" />
+    <meta property="og:description" content="Analyze diamonds by their cut, color, clarity, price, and other attributes" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/kaggle-datasets-images/1312/2368/23808724f313005d570be372003594fa/dataset-card.jpg" />
+    <meta property="fb:app_id" content="2665027677054710" />
+
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@kaggledatasets" />
+
+
+  <meta name="twitter:site" content="@Kaggle" /> 
+  
+    
+    <script nonce="w1IzY1PdlwsriDlE5zTcew==" type="application/ld+json">{"@context":"http://schema.org/","@type":"Dataset","name":"Diamonds","description":"### Context \n\nThis classic dataset contains the prices and other attributes of almost 54,000 diamonds. It's a great dataset for beginners learning to work with data analysis and visualization.\n\n### Content\n\n**price** price in US dollars (\\$326--\\$18,823)\n\n**carat** weight of the diamond (0.2--5.01)\n\n**cut** quality of the cut (Fair, Good, Very Good, Premium, Ideal)\n\n**color** diamond colour, from J (worst) to D (best)\n\n**clarity** a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))\n\n**x** length in mm (0--10.74)\n\n**y** width in mm (0--58.9)\n\n**z** depth in mm (0--31.8)\n\n**depth** total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)\n\n**table** width of top of diamond relative to widest point (43--95)","url":"https://www.kaggle.com/shivam2503/diamonds","version":1,"keywords":["subject, people and society, people, clothing and accessories","subject, people and society, business, finance"],"license":{"@type":"CreativeWork","name":"Unknown","url":""},"identifier":["1312"],"includedInDataCatalog":{"@type":"DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"Person","name":"Shivam Agrawal","url":"https://www.kaggle.com/shivam2503","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/945829-kg.jpg"},"distribution":[{"@type":"DataDownload","requiresSubscription":true,"encodingFormat":"zip","fileFormat":"zip","contentUrl":"https://www.kaggle.com/datasets/shivam2503/diamonds/download","contentSize":"750893 bytes"}],"commentCount":6,"dateModified":"2017-05-25T03:06:57.827Z","discussionUrl":"https://www.kaggle.com/shivam2503/diamonds/discussion","alternateName":"Analyze diamonds by their cut, color, clarity, price, and other attributes","isAccessibleForFree":true,"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/1312/2368/23808724f313005d570be372003594fa/dataset-card.jpg","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":6},{"@type":"InteractionCounter","interactionType":"http://schema.org/DownloadAction","userInteractionCount":51901},{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":303722},{"@type":"InteractionCounter","interactionType":"http://schema.org/LikeAction","userInteractionCount":815}]}</script>
+
+
+  
+    
+
+  
+    
+    
+<script nonce="w1IzY1PdlwsriDlE5zTcew==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+
+    Kaggle.Current = {
+        antiForgeryToken: 'CfDJ8GDhb0sRQ19Fpvg6UQb84XFLNtFyN74Zjh-hzhqT39Xy03BHhQYzHYccH4Ggs7R9H9VuhVl-mHlXzLOm6or4wr1MBjKycn5dThFUSF9wBU7DUw',
+        isAnonymous: true,
+        analyticsToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTAzNTk3OTQsIlVzZXJJZCI6MH0.yV9HOl9bLRqd_WCWlia5iIt8bBfnaT6xmh1T0rlenaA',
+        analyticsTokenExpiry: 15,
+        
+        
+        
+        
+        
+        
+        
+        enableRapidash: true, 
+        
+    }
+        Kaggle.Current.log = function(){};
+        Kaggle.Current.warn = function(){};
+
+    var decodeUserDisplayName = function () {
+        var escapedUserDisplayName = Kaggle.Current.userDisplayNameEscaped || "";
+        try {
+            var textVersion = new DOMParser().parseFromString(escapedUserDisplayName, "text/html").documentElement.textContent;
+            if (textVersion) {
+                return textVersion;
+            }
+        } catch(ex) {}
+        return escapedUserDisplayName;
+    }
+    Kaggle.Current.userDisplayName = decodeUserDisplayName();
+</script>
+
+    
+
+<script nonce="w1IzY1PdlwsriDlE5zTcew==" type="text/javascript">
+    var Kaggle = window.Kaggle || {};
+    Kaggle.PageMessages = [];
+</script>
+
+
+
+    <script nonce="w1IzY1PdlwsriDlE5zTcew==">window['useKaggleAnalytics'] = true;</script>
+
+  <script id="gapi-target" nonce="w1IzY1PdlwsriDlE5zTcew==" src="https://apis.google.com/js/api.js" defer
+    async></script>
+  <script nonce="w1IzY1PdlwsriDlE5zTcew==" src="/static/assets/runtime.js?v=b6e0d0386c003b23f65a" data-turbolinks-track="reload"></script>
+  <script nonce="w1IzY1PdlwsriDlE5zTcew==" src="/static/assets/vendor.js?v=a2004e5f19533473e100" data-turbolinks-track="reload"></script>
+  <script nonce="w1IzY1PdlwsriDlE5zTcew==" src="/static/assets/app.js?v=363cd627656a2d1309d5" data-turbolinks-track="reload"></script>
+    <script nonce="w1IzY1PdlwsriDlE5zTcew==" type="text/javascript">
+      window.kaggleStackdriverConfig = {
+        key: 'AIzaSyA4eNqUdRRskJsCZWVz-qL655Xa5JEMreE',
+        projectId: 'kaggle-161607',
+        service: 'web-fe',
+        version: 'ci',
+        userId: '0'
+      }
+    </script>
+</head>
+
+<body data-turbolinks="false">
+  <main>
+    
+
+
+
+
+
+
+<div id="site-container"></div>
+<div data-component-name="NavigationContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="w1IzY1PdlwsriDlE5zTcew==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"navigationType":"BOTH_NAV"});performance && performance.mark && performance.mark("NavigationContainer.componentCouldBootstrap");</script>
+<div id="site-body" class="hide">
+    
+
+<div data-component-name="DatasetMaterialContainer" style="display: flex; flex-direction: column; flex: 1 0 auto;"></div><script class="kaggle-component" nonce="w1IzY1PdlwsriDlE5zTcew==">var Kaggle=window.Kaggle||{};Kaggle.State=Kaggle.State||[];Kaggle.State.push({"basics":{"datasetId":1312,"slug":"diamonds","title":"Diamonds","description":"### Context \n\nThis classic dataset contains the prices and other attributes of almost 54,000 diamonds. It\u0027s a great dataset for beginners learning to work with data analysis and visualization.\n\n### Content\n\n**price** price in US dollars (\\$326--\\$18,823)\n\n**carat** weight of the diamond (0.2--5.01)\n\n**cut** quality of the cut (Fair, Good, Very Good, Premium, Ideal)\n\n**color** diamond colour, from J (worst) to D (best)\n\n**clarity** a measurement of how clear the diamond is (I1 (worst), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (best))\n\n**x** length in mm (0--10.74)\n\n**y** width in mm (0--58.9)\n\n**z** depth in mm (0--31.8)\n\n**depth** total depth percentage = z / mean(x, y) = 2 * z / (x \u002B y) (43--79)\n\n**table** width of top of diamond relative to widest point (43--95)","viewCount":303722,"downloadCount":51901,"scriptCount":307,"topicCount":6,"owner":{"id":945829,"imageUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/945829-kg.jpg","name":"Shivam Agrawal","profileUrl":"/shivam2503","slug":"shivam2503","userTier":"CONTRIBUTOR"},"license":{"id":4,"name":"Unknown"},"overview":"Analyze diamonds by their cut, color, clarity, price, and other attributes","collaboratorList":{"owner":{"userId":945829,"profileUrl":"/shivam2503","thumbnailUrl":"https://storage.googleapis.com/kaggle-avatars/thumbnails/945829-kg.jpg","name":"Shivam Agrawal","slug":"shivam2503","userTier":"CONTRIBUTOR","type":"OWNER"}},"coverImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1312/2368/23808724f313005d570be372003594fa/dataset-cover.jpg","data":{"totalSize":750893,"isFileset":true,"canSeeDownload":true,"firestorePath":"nMjsnn6zI9E6z7Z1O435/versions/JGTwdLeiozICZOFqc01n","downloadUrl":"/datasets/shivam2503/shivam2503/download?datasetVersionNumber=1","versionId":2368,"id":1312},"voteCount":815,"medalUrl":"/static/images/medals/datasets/goldl@2x.png","downloadUrl":"/datasets/shivam2503/diamonds/download","lastUpdateTime":"2017-05-25T03:06:57.827Z","datasetVersionNumber":1,"creatorDisplayName":"Shivam Agrawal","cardImageUrl":"https://storage.googleapis.com/kaggle-datasets-images/1312/2368/23808724f313005d570be372003594fa/dataset-card.jpg","categories":{"tags":[{"id":8301,"name":"clothing and accessories","fullPath":"subject \u003E people and society \u003E people \u003E clothing and accessories","listingUrl":"/datasets?group=public\u0026tagids=8301","description":"The datasets and kernels in this fashionable tag include clothes, shoes, and jewelry.","datasetCount":11032,"competitionCount":1,"notebookCount":436,"tagUrl":"/tags/clothing","displayName":"Clothing and Accessories"},{"id":11108,"name":"finance","fullPath":"subject \u003E people and society \u003E business \u003E finance","listingUrl":"/datasets?group=public\u0026tagids=11108","description":"The finance tag covers datasets and kernels about money and investing. If you need to test some new cryptocurrency investment strategies or ward off those pesky credit card fraud enthusiasts, then you\u0027ve come to the right place.","datasetCount":3883,"competitionCount":9,"notebookCount":3486,"tagUrl":"/tags/finance","displayName":"Finance","fontAwesomeIcon":"bar-chart"}]},"datasetExternalUrl":"https://www.kaggle.com/datasets/shivam2503/diamonds","forumId":3701,"datasetVersionId":2368,"canCreateTasks":true,"moderationStatus":"PRIVATED_MODERATION_STATUS_NO_ABUSE","lastVersionNumber":1,"diffType":"VERSIONED"},"@wf": "Datasets.DatasetMaterialDtoWireFormat3"});performance && performance.mark && performance.mark("DatasetMaterialContainer.componentCouldBootstrap");</script>
+<script nonce="w1IzY1PdlwsriDlE5zTcew==" type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+    preferredFont: "TeX",
+    availableFonts: ["STIX", "TeX"],
+    linebreaks: {
+    automatic: true
+    },
+    EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+    inlineMath: [["\\(", "\\)"], ["\\\\(", "\\\\)"]],
+    displayMath: [["$$", "$$"], ["\\[", "\\]"]],
+    processEscapes: true,
+    ignoreClass: "tex2jax_ignore|dno"
+    },
+    TeX: {
+    noUndefined: {
+    attributes: {
+    mathcolor: "red",
+    mathbackground: "#FFEEEE",
+    mathsize: "90%"
+    }
+    }
+    },
+    Macros: {
+    href: "{}"
+    },
+    skipStartupTypeset: true,
+    messageStyle: "none",
+    extensions: [],
+    });
+</script>
+<script type="text/javascript" nonce="w1IzY1PdlwsriDlE5zTcew==">
+  window.addEventListener("DOMContentLoaded", () => {
+    const head = document.getElementsByTagName("head")[0];
+    const useProdHosts = ["www.kaggle.com", "admin.kaggle.com"];
+    const subdomain = useProdHosts.includes(window.location.hostname) ? "www" : "staging";
+
+    const lib = document.createElement("script");
+    lib.type = "text/javascript";
+    lib.src = `https://${subdomain}.kaggleusercontent.com/static/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML`;
+    head.appendChild(lib);
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+
+
+  </main>
+</body>
+
+</html>
